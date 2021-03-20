@@ -52,3 +52,14 @@ class Book
   end
 
 end
+
+romeo = Book.new("Romeo&Juliet")
+puts romeo.title
+romeo.author = "Shakespear"
+puts romeo.author
+romeo.author = "Milan"
+puts romeo.author
+romeo.page_count = "300"
+puts romeo.page_count
+romeo.genre = "Tragedy"
+puts romeo.genre
